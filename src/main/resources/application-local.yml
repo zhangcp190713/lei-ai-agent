@@ -1,9 +1,9 @@
 ai:
   dashscope:
-    api-key: sk-d2921db79419491a99346c9b721627b5 # 阿里云官网注册获取API-KEY
+    api-key: xxx # 阿里云官网注册获取API-KEY
     model: qwen-plus # 使用 Qwen-Plus 模型
 
 search:
   api:
-    key: H6XCuPGo9LuSYWUEVfYpVC1H  # https://www.searchapi.io/ 网页搜索，注册获取API-KEY
+    key:   # https://www.searchapi.io/ 网页搜索，注册获取API-KEY
 
