@@ -97,7 +97,7 @@ graph TD
 工具调用流程
 ![image](https://github.com/user-attachments/assets/1f09fe1f-8f73-4da9-b129-f0ce287f2a57)
 框架控制的工具执行
-![image](https://github.com/user-attachments/assets/10aada95-9fe9-4f4f-905b-a32cf61f59e2)
+![image](https://github.com/user-attachments/assets/db1db176-5a1f-45ca-81e1-a27e6ee32c07)
 
 - **WebSearchTool**：网络搜索工具，获取实时信息
 - **PDFGenerationTool**：PDF生成工具，可创建旅游计划文档
