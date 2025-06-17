@@ -20,8 +20,6 @@
 - [项目亮点](#项目亮点)
 - [最新优化](#最新优化)
 - [未来规划](#未来规划)
-- [贡献指南](#贡献指南)
-- [联系方式](#联系方式)
 - [许可证](#许可证)
 
 ## 🌟 项目概述
@@ -96,6 +94,10 @@ graph TD
 ### 2. 工具调用系统 (Tools)
 
 工具调用系统扩展了智能体的能力边界，使其能够与外部世界交互。
+工具调用流程
+![image](https://github.com/user-attachments/assets/1f09fe1f-8f73-4da9-b129-f0ce287f2a57)
+框架控制的工具执行
+![image](https://github.com/user-attachments/assets/10aada95-9fe9-4f4f-905b-a32cf61f59e2)
 
 - **WebSearchTool**：网络搜索工具，获取实时信息
 - **PDFGenerationTool**：PDF生成工具，可创建旅游计划文档
@@ -353,22 +355,6 @@ java -jar target/lei-ai-agent-0.0.1-SNAPSHOT.jar
 5. **前端界面优化**：开发更友好的用户界面，提升用户体验
 6. **性能优化**：进一步优化系统性能，支持更高并发
 7. **多语言支持**：增加多语言支持，服务国际用户
-
-## 🤝 贡献指南
-
-欢迎对项目提出建议或贡献代码！请按以下步骤参与：
-
-1. Fork 本仓库
-2. 创建特性分支 (`git checkout -b feature/amazing-feature`)
-3. 提交更改 (`git commit -m 'Add some amazing feature'`)
-4. 推送到分支 (`git push origin feature/amazing-feature`)
-5. 创建 Pull Request
-
-## 📞 联系方式
-
-- **作者**：Li Lei
-- **邮箱**：lilei@example.com
-- **GitHub**：[https://github.com/lilei](https://github.com/lilei)
 
 ## 📄 许可证
 
