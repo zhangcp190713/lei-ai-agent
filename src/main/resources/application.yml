@@ -1,8 +1,14 @@
+server:
+  port: 8082
+  servlet:
+    encoding:
+      charset: UTF-8
+      enabled: true
+      force: true
 spring:
   application:
     name: lei-ai-agent
-  profiles:
-    active: local
+
   
   # Redis配置 (用于缓存和会话管理)
   data:
@@ -14,7 +20,7 @@ spring:
   # Spring AI配置
   ai:
     dashscope:
-      api-key: ${ai.dashscope.api-key}
+      api-key: ${ALI_QWEN_API}
       chat:
         options:
           model: qwen-plus
@@ -32,9 +38,9 @@ spring:
 
   # 数据库配置
   datasource:
-    url: jdbc:postgresql://127.0.0.1:5432/postgres
-    username: root
-    password: root
+    url: jdbc:postgresql://localhost:5432/postgres
+    username: postgres
+    password: postgres
     driver-class-name: org.postgresql.Driver
 
 #  # 参数名保留配置
@@ -42,14 +48,11 @@ spring:
     keep-alive: true
     parameters-name-discovery-enabled: true
 
-server:
-  port: 8082
-  servlet:
-    context-path: /api
+
 
 search:
   api:
-    key: ${search.api.key} # https://www.searchapi.io/ 网页搜索，注册获取API-KEY
+    key: 4nv4XiNFRBUbzWZ2pJrevR4b # https://www.searchapi.io/ 网页搜索，注册获取API-KEY
 
 # 日志配置
 logging:
